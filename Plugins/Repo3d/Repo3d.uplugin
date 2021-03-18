@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.1",
+	"FriendlyName": "3DRepo Unreal",
+	"Description": "Connects to 3DRepo to import and work with AEC models",
+	"Category": "Importers",
+	"CreatedBy": "3D Repo Ltd",
+	"CreatedByURL": "https://3drepo.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://3drepo.com/",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Repo3d",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		}
+	]
+}
